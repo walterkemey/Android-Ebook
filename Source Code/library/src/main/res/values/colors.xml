@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="textView_render_type_text">#FFFFFF</color>
+    <color name="textView_sub_render_type_text">#FFFFFF</color>
+    <color name="ratingBarNormal_library">#d4d7d9</color>
+    <color name="ratingSelect_library">#FEB500</color>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_gravity="bottom"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/profile"
+            app:civ_border_color="@color/imageView_boder_profile"
+            app:civ_border_width="2dp" />
+
+        <EditText
+            android:id="@+id/editText_dialogbox_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/imageView"
+            android:layout_toLeftOf="@+id/imageView_dialogBox_comment"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_toStartOf="@+id/imageView_dialogBox_comment"
+            android:gravity="top"
+            android:maxLines="10"
+            android:minLines="1" />
+
+        <ImageView
+            android:id="@+id/imageView_dialogBox_comment"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_comment" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

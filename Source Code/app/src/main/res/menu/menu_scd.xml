@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity.SCDetail">
+    <item
+        android:id="@+id/action_notification1"
+        android:icon="@drawable/ic_more_dtl"
+        android:title="action_notification"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/menu_favorite_scd"
+                android:icon="@drawable/ic_fav_hov"
+                android:orderInCategory="100"
+                android:title="@string/menu_favorite"
+                tools:ignore="AppCompatResource" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:orderInCategory="100"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/read_book"
+                android:icon="@drawable/ic_view"
+                android:orderInCategory="100"
+                android:title="@string/read_book" />
+            <item
+                android:id="@+id/download_book"
+                android:icon="@drawable/ic_download"
+                android:orderInCategory="100"
+                android:title="@string/download_book" />
+        </menu>
+    </item>
+</menu>
